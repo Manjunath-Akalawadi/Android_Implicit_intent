@@ -14,10 +14,10 @@
         android:layout_height="50dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="66dp"
-        android:textColor="#ffffff"
+        android:layout_marginTop="27dp"
         android:background="@drawable/button_round"
-        android:text="whats app" />
+        android:text="whats app"
+        android:textColor="#ffffff" />
 
     <Button
         android:id="@+id/buttonE"
@@ -25,21 +25,43 @@
         android:layout_height="50dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="182dp"
-        android:textColor="#ffffff"
+        android:layout_marginTop="124dp"
         android:background="@drawable/button_round"
-        android:text="email" />
+        android:text="email"
+        android:textColor="#ffffff" />
 
     <Button
         android:id="@+id/buttonG"
         android:layout_width="200dp"
         android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="218dp"
+        android:background="@drawable/button_round"
+        android:text="google"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/buttonC"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="176dp"
-        android:textColor="#ffffff"
+        android:layout_marginBottom="151dp"
         android:background="@drawable/button_round"
-        android:text="google" />
+        android:text="call"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/buttonS"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/button_round"
+        android:text="sms"
+        android:textColor="#ffffff" />
 
 
 </RelativeLayout>
