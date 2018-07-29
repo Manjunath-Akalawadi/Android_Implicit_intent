@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         buttonC = (Button) findViewById(R.id.buttonC);
         buttonS = (Button) findViewById(R.id.buttonS);
 
+        
         buttonW.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -60,19 +61,12 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(Intent.ACTION_CALL);
                 intent.setData(Uri.parse("tel:7892202787"));
 
-
-
-
                 if (ActivityCompat.checkSelfPermission(MainActivity.this,
                         Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
                     return;
                 }
 
-
-
                 startActivity(intent);
-
-
             }
         });
 
